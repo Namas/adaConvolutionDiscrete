@@ -61,6 +61,8 @@ procedure Convolution is
             tabC(i,k)=4*t(i,k)-t(i,k+1)-t(i,k-1)-t(i+1,k)-t(i-1,k);
          end loop;
       end loop;
+
+      return tabC;
    end convolutionDiscrete;
   
 
